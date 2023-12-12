@@ -4,8 +4,9 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 function porovnej () {
     if (cisloukolu == 10 && (Aster == 4 && Obel == 3)) {
+        radio.sendNumber(88)
         basic.showIcon(IconNames.Happy)
-        basic.pause(1000)
+        basic.pause(2000)
         radio.sendNumber(99)
         for (let index = 0; index < 50; index++) {
             basic.showString("KLIC JE NA SPODNI STRANE TRUHLY")
