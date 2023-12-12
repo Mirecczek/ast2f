@@ -59,7 +59,7 @@ function porovnej () {
         basic.pause(1000)
         basic.showIcon(IconNames.Umbrella)
         faze = 0
-    } else if (cisloukolu == 2 && (Aster == 3 && Obel == 4)) {
+    } else if (cisloukolu == 2 && (Aster == 2 && Obel == 5)) {
         cisloukolu += 1
         radio.sendNumber(88)
         basic.showIcon(IconNames.Happy)
